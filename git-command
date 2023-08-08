@@ -1,0 +1,13 @@
+mkdir python1234
+cd python1234
+touch ba1 bc1 bk1 
+cd ..
+touch aa1 ab1 ac1 ad1 ae1
+git status
+ls -l
+git add aa1 ab1 ac1 ad1 ae1
+git status
+git commit -m "abc"
+git show
+
+
